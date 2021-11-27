@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Abhishek Halder</title>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22754240-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td 
+id="layout-menu">
+<div class="menu-category">Abhishek Halder</div>
+<div class="menu-item"><a 
+href="index.html">Home</a></div>
+<div class="menu-item"><a 
+href="bio.html">Biography</a></div>
+<div class="menu-item"><a 
+href="awards.html">Awards</a></div>
+<div class="menu-category">Research</div>
+<div 
+class="menu-item"><a href="interests.html">Interests</a></div>
+<div class="menu-item"><a href="people.html">People</a></div>
+<div class="menu-item"><a href="topics.html">Topics</a></div>
+<div class="menu-item"><a href="media.html">Media</a></div>
+<div class="menu-item"><a href="grants.html">Grants</a></div>
+<div class="menu-item"><a 
+href="papers.html">Publications</a></div><div class="menu-item"><a 
+href="notes.html">Notes</a></div>
+<div class="menu-item"><a href="DoctoralDissertation.html">PhD Dissertation</a></div>
+
+
+<div class="menu-category">Academics</div>
+<div class="menu-item"><a href="courses.html" class="current">Course&nbsp;work</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="readinggroup.html">Reading&nbsp;group</a></div>
+</td>
+<td id="layout-content">
+<p>
+</p>
+<h1>Spacecraft Attitude and Orbital Maneuvers: Applied Optimal Control (AERO 623) 
+</h1>
+<p>
+
+by <a href="http://aero.tamu.edu/people/faculty/?id=74">Dr. Srinivas R. Vadali</a> 
+
+<br />
+
+</p>
+<div class="infoblock">
+<div class="blockcontent">
+<p>
+</p>
+<ul>
+<li><p>Static optimization
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Necessary and sufficient conditions
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Problems without constraints
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Problems with equality constraints
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Problems with inequality constarints
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Numrical solution: using MATLAB <tt>fmincon</tt> 
+<br />
+</p>
+</li>
+<li><p>Discrete-time optimal control problem
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; General discrete-time OCP for nonlinear systems
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Discrete-time LQR: fixed final state and open-loop control, free final state and closed-loop control, cross-weighted regulator 
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Digital control of continous-time systems
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Steady-state closed loop control and sub-optimal feedback
+<br />
+</p>
+</li>
+<li><p>Continuous-time optimal control problem
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Calculus of variations
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; General continuous-time OCP for nonlinear systems
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Continuous-time LQR: fixed final state and open-loop control, free final state and closed-loop control, cross-weighted regulator 
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Steady-state optimal control and sub-optimal feedback
+<br />
+</p>
+</li>
+<li><p>Tracking problem
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Continuous-time tracking problem: general approach, regulator with function of final state fixed (fixed final state LQR: closed loop and open loop)
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Discrete-time tracking problem: general approach, regulator with function of final state fixed (fixed final state LQR: closed loop and open loop)
+<br />
+</p>
+</li>
+<li><p>Some important considerations in optimal control problem
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Path constraints
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Switching control: jump formula
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Different types of discontinuities in OCP
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Control constraints and Pontryagin's principle
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Minimum time problems
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Bang-bang and bang-off-bang control
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Guidance problem and perturabation control, HJB equation, method of characteristics
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Conjugate points, singular OCP
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Primer vector and impulsive trajectory optimization
+<br />
+</p>
+</li>
+<li><p>Numerical methods
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Direct methods: pseudospectral collocation, <a href="http://www.gpops.org">GPOPS</a>
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Indirect methods: shooting method, multiple-shooting
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Implementing direct and indirect methods for OCP with singular arcs, OCP with path and control constraints
+<br />
+</p>
+</li>
+<li><p>Output feedback and observer
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; LQR with output feedbaack
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Structured control
+<br /> &nbsp;&nbsp;&nbsp;&nbsp; &ndash; Estimator problem
+
+</p>
+</li>
+</ul>
+</div></div><div id="footer">
+<div id="footer-text"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

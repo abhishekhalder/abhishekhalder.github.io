@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Abhishek Halder</title>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22754240-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Abhishek Halder</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="bio.html">Biography</a></div>
+<div class="menu-item"><a href="awards.html">Awards</a></div>
+<div class="menu-item"><a href="service.html">Service</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="interests.html">Interests</a></div>
+<div class="menu-item"><a href="people.html">People</a></div>
+<div class="menu-item"><a href="topics.html" class="current">Topics</a></div>
+<div class="menu-item"><a href="media.html">Media</a></div>
+<div class="menu-item"><a href="talks.html">Talks</a></div>
+<div class="menu-item"><a href="grants.html">Grants</a></div>
+<div class="menu-item"><a href="papers.html">Publications</a></div>
+<!-- <div class="menu-item"><a href="notes.html">Notes</a></div><div class="menu-item"><a href="DoctoralDissertation.html">PhD Dissertation</a></div> --><div class="menu-category">Academics</div>
+<div class="menu-item"><a href="courses.html">Course&nbsp;work</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="readinggroup.html">Reading&nbsp;group</a></div>
+</td>
+<td id="layout-content">
+<p>
+</p>
+<h1>Uncertainty Propagation in Nonlinear Systems
+</h1>
+<p>
+
+
+<h2>Mars entry-descent-landing</h2>
+<table class="imgtable"><tr><td>
+<img src="ellipse.png" alt="LandingEllipseMars" />
+</td></tr></table>
+<br/>
+<p>Shown above are landing ellipses for all past Mars missions, plotted with same center and same inclination, for comaprison purposes. The axes are in Km, showing that historically, the landing footprint uncertainty has been rather large. Computational analysis of landing footprints are usually done using resource-expensive Monte Carlo simulations. <a href="http://people.tamu.edu/~ahalder/JGCD_Liouville.html">We showed</a> that the method-of-characteristics based solution of Liouville equation, is a <a href="http://people.tamu.edu/~ahalder/PerformanceBoundsvSubmitted.pdf">tractable and accurate</a> alternative to Monte Carlo. Shown below are the time evolution of latitude-longitude bivariate marginals, using same number of samples for Monte Carlo (<i>left</i>) and the propsed method (<i>right</i>), in the presence of initial condition uncertainties.</p>
+<br/>
+<table class="imgtable"><tr><td>
+<iframe src="http://player.vimeo.com/video/51361437?title=1&amp;byline=1&amp;portrait=1" width="1000" height="563" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</td></tr></table>
+<br/>
+
+
+<h2>Transfer Operator Methods for Nonlinear Estimation</h2>
+<br/>
+<table class="imgtable"><tr><td>
+<img src="KLPFblockdiagm.png" alt="BlockDiagramKLPF" />&nbsp;</td>
+<td align="left"><img src="KalmanWass.png" alt="KalmanFilter" />&nbsp;</td>
+<td align="left"> 
+</td></tr></table>
+<br/><br/>
+<p>The block diagram on <i>above left</i> shows how the method-of-characteristics based computation of transfer operators, <a href="http://people.tamu.edu/~ahalder/MSC2012_Dobruvnik.html">can be extended</a> to account process noise. In the estimation setting, this results an accurate computation of the prior, that greatly enhances the <a href="http://people.tamu.edu/~ahalder/ACC2013_KLPFfilter.html">accuracy of nonlinear filtering algorithm</a>. The plot on <i>above right</i> shows that for linear Gaussian case, the true (Kalman) posterior remains closer to the posterior predicted by our algorithm (<i>solid line</i>), compared to that predicted by particle filter (<i>dashed line</i>). This is <a href="http://people.tamu.edu/~ahalder/ACC2013_KLPFfilter.html">shown to be true</a> for nonlinear non-Gaussian systems as well.</p>
+ 
+
+
+
+</p>
+<div id="footer">
+<div id="footer-text"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

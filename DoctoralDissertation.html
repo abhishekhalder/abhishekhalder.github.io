@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Abhishek Halder</title>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22754240-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Abhishek Halder</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="bio.html">Biography</a></div>
+<div class="menu-item"><a href="awards.html">Awards</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="interests.html">Interests</a></div>
+<div class="menu-item"><a href="people.html">People</a></div>
+<div class="menu-item"><a href="topics.html">Topics</a></div>
+<div class="menu-item"><a href="media.html">Media</a></div>
+<div class="menu-item"><a href="grants.html">Grants</a></div>
+<div class="menu-item"><a href="papers.html">Publications</a></div>
+
+<!-- <div class="menu-item"><a href="notes.html">Notes</a></div><div class="menu-item"><a href="Doctoral Dissertation.html" class="current">PhD Dissertation</a></div>
+ --><div class="menu-category">Academics</div>
+<div class="menu-item"><a href="courses.html">Course&nbsp;work</a></div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="readinggroup.html">Reading&nbsp;group</a></div>
+</td>
+<td id="layout-content">
+<p>
+</p>
+<h1>
+Probabilistic Methods for Model Validation</h1>
+<p>
+
+A. Halder
+
+<br /><br />
+
+<i>Ph.D Dissertation</i>, May 2014.
+
+<br />
+
+</p>
+<ul>
+<li><p><a href="AbhishekHalderDissertationRev3v1.6.pdf" target=newtab>Revised version</a> (Last revised: September 30, 2014)<br/>
+
+
+<li><a href="ABHISHEKHALDERDefenseFLYER.pdf" target=newtab>Defense flyer</a>
+
+
+
+</p>
+</li>
+</ul>
+<div class="infoblock">
+<div class="blockcontent">
+<p>
+<b>Abstract:</b> This dissertation develops a probabilistic method for validation and verification (V&V) of uncertain nonlinear systems. Existing systems-control literature on model and controller V&V <i>either</i> deal with linear systems with norm-bounded uncertainties, <i>or</i> consider nonlinear systems in set-based and moment based framework. These existing methods deal with model <i>invalidation</i> or <i>falsification</i>, rather than assessing the quality of a model with respect to measured data. In this dissertation, an axiomatic framework for model validation is proposed in probabilistically relaxed sense, that instead of simply invalidating a model, seeks to quantify the "degree of validation".
+
+<br /><br />
+
+To develop this framework, novel algorithms for uncertainty propagation have been proposed for both deterministic and stochastic nonlinear systems in continuous time. For the deterministic flow, we compute the time-varying joint probability density functions over the state space, by solving the Liouville equation via method-of-characteristics. For the stochastic flow, we propose an approximation algorithm that combines the method-of-characteristics solution of Liouville equation with the Karhunen-Lo&egraveve expansion of process noise, thus enabling an indirect solution of Fokker-Planck equation, governing the evolution of joint probability density functions. The efficacy of these algorithms are demonstrated for risk assessment in Mars entry-descent-landing, and for nonlinear estimation. Next, the V&V problem is formulated in terms of Monge-Kantorovich optimal transport, naturally giving rise to a metric, called Wasserstein metric, on the space of probability densities. It is shown that the resulting computation leads to solving a linear program at each time of measurement availability, and computational complexity results for the same are derived. Probabilistic guarantees in average and worst case sense, are given for the validation oracle resulting from the proposed method. The framework is demonstrated for nonlinear robustness verification of F-16 flight controllers, subject to probabilistic uncertainties.
+
+<br /><br />
+
+Frequency domain interpretations for the proposed framework are derived for linear systems, and its connections with existing nonlinear model validation methods are pointed out. In particular, we show that the asymptotic Wasserstein gap between two single-output linear time invariant systems excited by Gaussian white noise, is the difference between their average gains, up to a scaling by the strength of the input noise. A geometric interpretation of this result allows us to propose an intrinsic normalization of the Wasserstein gap, which in turn allows us to compare it with classical systems-theoretic metrics like nu-gap. Next, it is shown that the optimal transport map can be used to automatically refine the model. This model refinement formulation leads to solving a non-smooth convex optimization problem. Examples are given to demonstrate how proximal operator splitting based computation enables numerically solving the same. This method is applied for finite-time feedback control of probability density functions, and for data driven modeling of dynamical systems.
+
+
+</p>
+</div></div>
+
+
+<div id="footer">
+<div id="footer-text"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
